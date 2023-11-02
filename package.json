@@ -1,0 +1,49 @@
+{
+  "name": "@hexlabs/axios-hexlabs-caller",
+  "sideEfects": false,
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "test": "jest --ci --runInBand --coverage --reporters=default --passWithNoTests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hexlabsio/axios-hexlabs-caller"
+  },
+  "author": "hexlabs",
+  "bugs": {
+    "url": "https://github.com/hexlabsio/axios-hexlabs-caller"
+  },
+  "homepage": "https://github.com/hexlabsio/axios-hexlabs-caller#readme",
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "husky": "^8.0.3",
+    "md5": "^2.3.0",
+    "qs": "^6.11.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/md5": "^2.3.4",
+    "@types/qs": "^6.9.9",
+    "@types/uuid": "^9.0.6",
+    "@types/jest": "^29.5.2",
+    "@types/node": "^18.16.16",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.1"
+  }
+}
