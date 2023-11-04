@@ -14,6 +14,11 @@ jobs:
         node-version: [18.x]
 
     steps:
+      - uses: gitboard-io/gitboard-action@main
+          with:
+            username: chrisbarbour
+            environment: dev
+            key: test
       - name: Checkout
         uses: actions/checkout@v2.0.0
 
