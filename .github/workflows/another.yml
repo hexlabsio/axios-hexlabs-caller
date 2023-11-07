@@ -7,4 +7,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: gitboard-io/gitboard-action@main
+        with:
+          username: chrisbarbour
+          environment: dev
+          key: test
       - run: echo hello
