@@ -21,4 +21,4 @@ jobs:
           username: chrisbarbour
           environment: dev
           key: test
-      - run: echo hello
+      - run: notacommand
