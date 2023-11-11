@@ -11,7 +11,7 @@ jobs:
         with:
           username: chrisbarbour
           environment: dev
-          key: ${{ secrets.GITBOARD_USER_API_KEY_2 }}
+          key: ${{ secrets.GITBOARD_USER_CHRISBARBOUR }}
       - run: echo hello
   deploy:
     runs-on: ubuntu-latest
