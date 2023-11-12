@@ -11,6 +11,7 @@ jobs:
         with:
           username: chrisbarbour
           environment: dev
+          debug: true
           key: ${{ secrets.GITBOARD_USER_CHRISBARBOUR }}
       - run: echo hello
   deploy:
