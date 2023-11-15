@@ -18,7 +18,7 @@ jobs:
         with:
           username: chrisbarbour
           environment: dev
-          key: test
+          key: ${{ secrets.GITBOARD_USER_CHRISBARBOUR }}
       - name: Checkout
         uses: actions/checkout@v2.0.0
 
