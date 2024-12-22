@@ -1,2 +1,2 @@
 export * from './sdk-caller.js';
-export * from './hook';
+export * from './hook.js';
